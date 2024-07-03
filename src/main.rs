@@ -2,7 +2,6 @@ use std::fs::File;
 use std::io::{self, BufReader, Write};
 use std::path::PathBuf;
 
-use arrow::array::Array;
 use arrow::ipc::reader::FileReader;
 use clap::Parser;
 use serde_json::{Map, Number, Value};

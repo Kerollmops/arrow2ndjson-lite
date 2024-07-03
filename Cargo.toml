@@ -1,7 +1,12 @@
 [package]
 name = "arrow2ndjson-lite"
+description = "A little tool to convert an arrow file to a valid ndjson/json-stream"
 version = "0.1.0"
 edition = "2021"
+authors = ["Kerollmops <renault.cle@gmail.com>"]
+repository = "https://github.com/Kerollmops/arrow2ndjson-lite"
+license = "MIT"
+readme = "README.md"
 
 [dependencies]
 anyhow = "1.0.86"
